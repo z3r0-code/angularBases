@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
+  selector: 'App-Counter',
+  template: "<h1>hola mundo</h1>",
   
 })
-export class AppComponent {
+export class CounterComponent {
  public  title: string = 'mi primera app';
 public Counter: number = 10;
  
